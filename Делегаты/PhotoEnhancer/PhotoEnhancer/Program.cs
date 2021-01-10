@@ -15,7 +15,7 @@ namespace PhotoEnhancer
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            var mainForm = new MainForm();
+            var mainForm = new MainForm();  
 
             mainForm.AddFilter(new PixelFilter<LighteningParameters>(
                 "Осветление/затемнение",
